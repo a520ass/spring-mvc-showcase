@@ -27,7 +27,7 @@ public class MessageConvertersController {
 
 	@RequestMapping(value="/string", method=RequestMethod.GET)
 	public @ResponseBody String writeString() {
-		return "Wrote a string";
+		return "Write a string";
 	}
 
 	// Form encoded data (application/x-www-form-urlencoded)
